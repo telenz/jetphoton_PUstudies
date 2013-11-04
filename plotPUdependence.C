@@ -796,7 +796,7 @@ int plotPUdependence(){
     TCanvas *cgr = new TCanvas("cgr","gr",200,10,450,450);
     cgr->cd();
     gr->Draw("AP");
-    cgr->SaveAs("test.pdf");
+    cgr->SaveAs("PUdependence/test.pdf");
 
 
     
